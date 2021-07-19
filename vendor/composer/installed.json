@@ -1,0 +1,50 @@
+[
+    {
+        "name": "mayoz/parasut",
+        "version": "v1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mayoz/parasut.git",
+            "reference": "88b45bc3f7f84da9b6028ffd7f02547d9b537506"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mayoz/parasut/zipball/88b45bc3f7f84da9b6028ffd7f02547d9b537506",
+            "reference": "88b45bc3f7f84da9b6028ffd7f02547d9b537506",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.5.9"
+        },
+        "time": "2017-01-20T01:31:14+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Parasut\\": "src"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sercan Çakır",
+                "email": "srcnckr@gmail.com"
+            }
+        ],
+        "description": "An easy-to-use Parasut's API with PHP.",
+        "homepage": "https://github.com/mayoz/parasut",
+        "keywords": [
+            "gateway",
+            "invoice",
+            "parasut"
+        ]
+    }
+]
